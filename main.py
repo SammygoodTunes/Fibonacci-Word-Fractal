@@ -1,7 +1,7 @@
 '''
 Title: Fibonacci Word Fractal
 Author: SammygoodTunes
-Version: 1.0
+Version: 1.1
 '''
 
 import math,pygame,random,pyautogui
@@ -140,7 +140,7 @@ def main():
 			simulation.draw=False
 
 		pygame.display.flip()
-		window.clock.tick(60000)
+		window.clock.tick(60)
 	pygame.quit()
 
 if __name__ == '__main__':

@@ -4,7 +4,7 @@ Recreation of the fractal obtained from the Fibonacci word.
 Explanation:
 ===================
 
-The Fibonacci word is a special sequence of binary digits, that can be determined using the line of slope 1/φ (φ being the golden ratio [phi approx. = 1.618]
+The Fibonacci word is a special sequence of binary digits, that can be determined using the line of slope 1/φ (φ being the golden ratio [phi approx. = 1.618]).
 
 
 Using the given binary sequence, we can establish a fractal with the help of a list of rules and the OEDR:

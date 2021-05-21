@@ -1,43 +1,56 @@
 '''
 Title: Fibonacci Word Fractal
 Author: SammygoodTunes
-Version: 1.1
+Version: 1.1.20210521
 '''
 
 import math,pygame,random,pyautogui
+
 
 pygame.init()
 
 
 class Window:
+
 	def __init__(self):
 		self.w,self.h=pyautogui.size()
 		self.clock=pygame.time.Clock()
+
+
 	def get_window_size(self):
 		return self.w,self.h
 
+
 class Location:
+
 	def __init__(self):
 		self.x,self.y=window.w/2,window.h
 		self.x2,self.y2=2,-10
 
+
 class Line:
+
 	def __init__(self):
 		self.turn_id=0
 		self.size=1
 
+
 class Lists:
+
 	def __init__(self):
 		self.num_list=[]
 		self.fibonacci_list=[]
 		self.binary_list=[]
 
+
 class Simulation:
+
 	def __init__(self):
 		self.iterations=0
 		self.max_iterations=5000
 		self.draw=True
 		self.end=False
+
 
 	def start(self,lists,simulation):
 		for i in range(1,simulation.max_iterations):
@@ -45,13 +58,16 @@ class Simulation:
 		simulation.append(lists)
 		simulation.compare(lists)
 
+	
 	def phi(self,n):
 		return int(n*(1+math.sqrt(5))/2)
 
+	
 	def append(self,lists):
 		for i in range(1,self.max_iterations):
 			lists.num_list.append(i)
 
+	
 	def compare(self,lists):
 		for i in range(len(lists.fibonacci_list)):
 			if lists.num_list[i] in lists.fibonacci_list:
@@ -59,6 +75,7 @@ class Simulation:
 			else:
 				lists.binary_list.append(0)
 
+	
 	def check_turn_id(self,line,location):
 		if line.turn_id==0:
 			location.x2,location.y2=2,-line.size
@@ -73,9 +90,11 @@ class Simulation:
 			location.x2,location.y2=-line.size,2
 			location.x-=line.size
 
+
 window=Window()
 screen=pygame.display.set_mode([window.get_window_size()[0],window.get_window_size()[1]])
 pygame.display.set_caption("Fibonacci Word Fractal Simulation")
+
 
 def main():
 

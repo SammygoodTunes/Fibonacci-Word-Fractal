@@ -30,6 +30,23 @@ Controls:
 [Escape] -> Exit
 
 
+Installation information:
+===================
+
+A "requirements" text file is provided within the repository.
+
+
+To install the necessary library(ies) to run the script:
+
+1- Open CMD or GitBash
+
+
+2- Change the current directory to the project path (cd path\\to\\project)
+
+
+3- Install the library(ies) for the "requirements.txt" file (pip install -r requirements.txt)
+
+
 Development information:
 ===================
 

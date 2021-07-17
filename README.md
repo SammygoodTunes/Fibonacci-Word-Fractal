@@ -1,8 +1,7 @@
 # Fibonacci-Word-Fractal
 Recreation of the fractal obtained from the Fibonacci word.
 
-Explanation:
-===================
+## Explanation:
 
 The Fibonacci word is a special sequence of binary digits, that can be determined using the line of slope 1/φ (φ being the golden ratio [phi approx. = 1.618]).
 
@@ -21,8 +20,7 @@ For each digit at position k:
 This program is still currently being developed on, and will receive updates in the near future.
 
 
-Controls:
-===================
+## Controls:
 
 [Space] -> Reset simulation
 
@@ -30,8 +28,7 @@ Controls:
 [Escape] -> Exit
 
 
-Installation information:
-===================
+## Installation information:
 
 A "requirements" text file is provided within the repository.
 
@@ -47,8 +44,7 @@ To install the necessary library(ies) to run the script:
 3- Install the library(ies) from the "requirements.txt" file (pip install -r requirements.txt)
 
 
-Development information:
-===================
+## Development information:
 
 Developed by: SammygoodTunes
 

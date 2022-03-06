@@ -11,10 +11,10 @@ Using the given binary sequence, we can establish a fractal with the help of a l
 
 For each digit at position k:
 
-1- If the digit is equaled to 0, draw a line/segment forward (in the direction it's currently facing).
+* If the digit is equaled to 0, draw a line/segment forward (in the direction it's currently facing).
 
 
-2- If the digit is equaled to 0, turn left 90° if k is even or right 90° if k is odd.
+* If the digit is equaled to 0, turn left 90° if k is even or right 90° if k is odd.
 
 
 This program is still currently being developed on, and will receive updates in the near future.
@@ -41,7 +41,10 @@ To install the necessary library(ies) to run the script:
 2- Change the current directory to the project path (cd path\\to\\project)
 
 
-3- Install the library(ies) from the "requirements.txt" file (pip install -r requirements.txt)
+3- Install the library(ies) from the "requirements.txt" file using:
+  ```
+  pip install -r requirements.txt
+  ```
 
 
 ## Development information:

@@ -1,5 +1,5 @@
 # Fibonacci-Word-Fractal
-Recreation of the fractal obtained from the Fibonacci word.
+Replica of the fractal obtained from the Fibonacci word.
 
 ## Explanation:
 
